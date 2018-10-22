@@ -259,8 +259,6 @@ footer
 
 iframe
 {
-	
-	padding-left: 25%;
 	max-width: 560px; 
 	max-height:615px;
 }
@@ -277,8 +275,9 @@ iframe
 
 .pdf
 {
-	margin: 0 0 0 -14%;
-	width: 80%; 
+    margin: 0 auto; 
+    max-width: 560px;
+    max-height: 500px;  
 	height:100%;
 }
 /* galeria slider design digital */ 
@@ -393,3 +392,4 @@ iframe
 	width: 35px;
 	
 }
+
