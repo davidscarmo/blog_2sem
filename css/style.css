@@ -258,11 +258,16 @@ footer
 /* PLUG-IN FACEBOOK */ 
 
 iframe
-{
-	max-width: 560px; 
+{   
+	max-width: 660px; 
 	max-height:615px;
 }
 
+.face {
+    margin: 0 auto; 
+    max-width: 400px;
+	height:100%;  
+}
 /* videos math */
 
 .video 
@@ -276,9 +281,9 @@ iframe
 .pdf
 {
     margin: 0 auto; 
-    max-width: 560px;
+    max-width: 760px;
     max-height: 500px;  
-	height:100%;
+	
 }
 /* galeria slider design digital */ 
 
