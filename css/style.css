@@ -40,11 +40,9 @@ body
 	
 	
 }
-.conteudo img
-{
-	margin: 0 40% 0 40%;
-}
-.conteudo 
+/* Conteúdo nas articles */
+
+.conteudo
 {
     display: inline-block;
 	border-left:   3px solid #222;
@@ -52,6 +50,10 @@ body
 	background: white;
     margin: 0% 15% 0% 15%;
     min-height: calc(100vh - 100px);
+}
+.conteudo img
+{
+	margin: 0 40% 0 40%;
 }
 
 .conteudo h1
@@ -176,15 +178,20 @@ body
 	height: 50%;
 }
 
-.imagem01
-{
-	position: absolute;
-	top: 6%;
-	left: 16%;
-	width: 70%;
-	height: 85%;
-	z-index: -1;
+.home {
+    margin: 0 auto;
+    min-height: 90vh;
+
 }
+.home img
+{
+    margin: 0 auto;
+	display: block;
+	max-width: 900px;
+	max-height: 900px;
+	
+}
+
 
 footer
 {
