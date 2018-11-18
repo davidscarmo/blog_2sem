@@ -53,7 +53,9 @@ body
 }
 .conteudo img
 {
-	margin: 0 40% 0 40%;
+    display: block;
+	margin: 0 auto;
+
 }
 
 .conteudo h1
@@ -279,10 +281,12 @@ iframe
 }
 /* videos math */
 
-.video 
+#video 
 {
-    margin-right: 25%;
-	
+    display: block;
+	margin: auto;
+    max-width= 560px; 
+    max-height= 315px;
 }
 
 /* pdf padroes */
