@@ -10,8 +10,7 @@ body
 {   
     overflow: auto;
 	background:#696969 ;
-	font-family: tahoma, verdana, sans-serif;
-		
+	font-family: tahoma, verdana, sans-serif;      
 	
 }
 
@@ -117,6 +116,7 @@ body
 	height: 50px;
 	background-color: #222;
 	font-family: arial;
+    display:block
 }
 
 
@@ -128,10 +128,16 @@ body
 
 .menu ul li
 {
-	
 	width: 150px;
 	float: left;
 	
+}
+
+#primeiroli 
+{
+	width: 150px;
+	float: left;
+	padding-left: 15%;
 }
 
 .menu a
@@ -173,17 +179,14 @@ body
 }
 .menu img
 {
-	margin: 2px 2% 0 0 ;
-	display: block ;
-	float: right;
 	width: 150px;
 	height: 50%;
 }
 
 .home {
     margin: 0 auto;
-    height: 100vh;
-    width: 80vw;
+    min-height: calc(100vh - 30px);
+    max-width: 80vw;
     
 
 }
@@ -191,8 +194,8 @@ body
 {
     margin: 0 auto;
 	display: block;
-	max-width: 900px;
-	max-height: 900px;
+	max-width: 50vw;
+	max-height: 80vh;
 	
 }
 
@@ -200,9 +203,10 @@ body
 footer
 {
 	clear: both;
+    display: block;
     position: relative;
     width: 100%;
-	height: 30px;
+	min-height: 30px;
     background-color: #222;
     color: white;
     text-align: center;
