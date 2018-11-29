@@ -273,15 +273,10 @@ footer
 
 /* PLUG-IN FACEBOOK */ 
 
-iframe
-{   
-	max-width: 660px; 
-	max-height:615px;
-}
 
 .face {
     margin: 0 auto; 
-    max-width: 400px;
+    max-width: 320px;
 	height:100%;  
 }
 /* videos math */
@@ -302,11 +297,6 @@ iframe
     max-width: 560px;
     max-height: 500px;  
 	
-}
-
-.pdf iframe{
-    width="560px";
-    height="315px";
 }
 
 /* galeria slider design digital */ 
@@ -477,13 +467,13 @@ iframe
 }
     .menu ul ul li
 {
-	 
-	width: 100vw;
+    float: left;
+	width: 100%;
 	
 }
 
+}
 
-    
 }
 
 
