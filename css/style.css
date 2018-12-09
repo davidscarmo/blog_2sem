@@ -463,7 +463,8 @@
         .pdfDownload p
         {       
             text-align: center;
-            padding: 0; /* estava herdando padding da classe conteudo */ 
+            padding: 0;
+            /* estava herdando padding da classe conteudo */ 
         }
 }
 
