@@ -1,479 +1,470 @@
-/* host-filezilla: projetos.fatecjales.edu.br client: davidcarmo senha:  */ 
+    /* host-filezilla: projetos.fatecjales.edu.br client: davidcarmo senha:  */ 
 
-*
-{
-		margin: 0;
-		padding: 0;
-}
+    *
+    {
+            margin: 0;
+            padding: 0;
+    }
 
-body
-{   
-    overflow: auto;
-	background:#696969 ;
-	font-family: tahoma, verdana, sans-serif;      
-	
-}
+    body
+    {   
+        overflow: auto;
+        background:#696969 ;
+        font-family: tahoma, verdana, sans-serif;      
 
-
-.exemplo_sintaxe 
-{
-	margin: 2% 15% 2% 15%;
-	min-width: 50%;
-	max-height: 100%;
-	border: 3px groove #222;
-	background-color: #fff;
-	border-radius: 1em;
-	box-shadow: black 0.5em 0.5em 0.3e;
-    
-
-}
-.exemplo_sintaxe h2 
-{
-	text-align: center;
-}
-.exemplo_sintaxe p
-{
-	text-align: center;
-	margin-left: 5%;
-	font-size: 1px;
-	
-	
-}
-/* Conteúdo nas articles */
-
-.conteudo
-{
-    display: inline-block;
-	border-left:   3px solid #222;
-    border-right:   3px solid #222;
-	background: white;
-    margin: 0% 15% 0% 15%;
-    min-height: calc(100vh - 100px);
-}
-.conteudo img
-{
-    display: block;
-	margin: 0 auto;
-
-}
-
-.conteudo h1
-{
-	text-align: center;
-	font-size: 2em;	
-	
-}
-.conteudo h2, h3
-{
-	font-size: 1.3em;
-	text-align: center;
-	text-decoration: bold;
-}
-.conteudo h1,h2,h3,h4
-{
-	margin: 1% 0 1% 0;
-}
-.conteudo h4
-{
-		font-size: 1.0em;
-		text-align: center;
-}
-
-.conteudo p
-{
-	padding: 0% 2% 0% 2%;
-	font-size: 1.4em;
-	text-align: justify;
-	font-family: tahoma;
-	text-indent: 2em;
-}
-/* links estilo */ 
-
-/* link não visitado */
-.conteudo a:link {
-    color: #222;
-}
-
-/* link visitado */
-.conteudo a:visited {
-    color: green;
-}
-
-/* mouse sobre o link */
-.conteudo a:hover {
-    color: green;
-}
-
-/*  link selecionado */
-.conteudo a:active {
-    color: red;
-}
-
-/* Menu  */ 
-.menu
-{
-	width: 100%;
-	height: 50px;
-	background-color: #222;
-	font-family: arial;
-    display:block
-}
+    }
 
 
-.menu ul 
-{
-	list-style: none;
-	position: relative;
-}
-
-.menu ul li
-{
-	width: 150px;
-	float: left;
-	
-}
-
-#primeiroli 
-{
-	width: 150px;
-	float: left;
-	padding-left: 15%;
-}
-
-.menu a
-{
-	padding: 15px;
-	display: block;
-	text-decoration: none;
-	text-align:center;
-	background-color: #222;
-	color: #FFF;
-}
-
-.menu ul ul 
-{
-	position: absolute; 
-	visibility: hidden;
-	
-}
-.menu ul ul li
-{
-	float: none;
-	display: block; 
-	width: 250px;
-	
-}
-
-.menu ul li:hover ul
-{
-	visibility: visible;
-	display: block;
-	 z-index: 1;
-	
-}
-
-.menu a:hover 
-{
-	background-color: green;
-	
-}
-.menu img
-{
-	width: 150px;
-	height: 50%;
-}
-
-/*Div da página home */ 
-.home {
-    margin: 0 auto;
-    min-height: calc(100vh - 30px);
-    max-width: 80vw;
-    
-
-}
-.home img
-{
-    margin: 0 auto;
-	display: block;
-	max-width: 50vw;
-	max-height: 80vh;
-	
-}
+    .exemplo_sintaxe 
+    {
+        margin: 2% 15% 2% 15%;
+        min-width: 50%;
+        max-height: 100%;
+        border: 3px groove #222;
+        background-color: #fff;
+        border-radius: 1em;
+        box-shadow: black 0.5em 0.5em 0.3e;
 
 
-footer
-{
-	clear: both;
-    display: block;
-    position: relative;
-    width: 100%;
-	min-height: 30px;
-    background-color: #222;
-    color: white;
-    text-align: center;
-	
-	
-}
+    }
+    .exemplo_sintaxe h2 
+    {
+        text-align: center;
+    }
+    .exemplo_sintaxe p
+    {
+        text-align: center;
+        margin-left: 5%;
+        font-size: 1px;
 
 
+    }
+    /* Conteúdo nas articles */
+
+    .conteudo
+    {
+        display: inline-block;
+        border-left:   3px solid #222;
+        border-right:   3px solid #222;
+        background: white;
+        margin: 0% 15% 0% 15%;
+        min-height: calc(100vh - 100px);
+    }
+    .conteudo img
+    {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .conteudo h1
+    {
+        text-align: center;
+        font-size: 2em;	
+
+    }
+    .conteudo h2, h3
+    {
+        font-size: 1.3em;
+        text-align: center;
+        text-decoration: bold;
+    }
+    .conteudo h1,h2,h3,h4
+    {
+        margin: 1% 0 1% 0;
+    }
+    .conteudo h4
+    {
+            font-size: 1.0em;
+            text-align: center;
+    }
+
+    .conteudo p
+    {
+        padding: 0% 2% 0% 2%;
+        font-size: 1.4em;
+        text-align: justify;
+        font-family: tahoma;
+        text-indent: 2em;
+    }
+    /* links estilo */ 
+
+    /* link não visitado */
+    .conteudo a:link {
+        color: #222;
+    }
+
+    /* link visitado */
+    .conteudo a:visited {
+        color: green;
+    }
+
+    /* mouse sobre o link */
+    .conteudo a:hover {
+        color: green;
+    }
+
+    /*  link selecionado */
+    .conteudo a:active {
+        color: red;
+    }
+
+    /* Menu  */ 
+    .menu
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #222;
+        font-family: arial;
+        display:block
+    }
 
 
+    .menu ul 
+    {
+        list-style: none;
+        position: relative;
+    }
 
-
-	/* galeria slider fatec */ 
-.galeria
-{
-	width: 60%;
-	height: 50%;
-	position: relative;
-	padding: 0px; 
-	margin: 2% 0% 0% 18.5%;
-	
-	
-}
-
-.foto{
-	position: absolute;
-	opacity: 0;
-	animation-name: animacao;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	width: 100%;
-	height: 100%;
-	margin: 0%;
-	
-}
-
-@keyframes animacao {
-	
-	25%{
-		opacity: 1;
-		trasform:scale(1.1,1.1);
-}
-
-	50%{
-		opacity: 0;
-	}
-}
-
-
-
-.foto:nth-child(1){
-	
-}
-.foto:nth-child(2){
-	animation-delay: 5s;
-}
-.foto:nth-child(3){
-	animation-delay: 10s;
-}
-.foto:nth-child(4){
-	animation-delay: 15s;
-}
-
-/* PLUG-IN FACEBOOK */ 
-
-
-.face {
-    margin: 0 auto; 
-    max-width: 320px;
-	height:100%;  
-}
-/* videos math */
-
-#video 
-{
-    display: block;
-	margin: auto;
-    max-width= 560px; 
-    max-height= 315px;
-}
-
-/* pdf padroes */
-
-.pdf
-{
-    margin: 0 auto; 
-    max-width: 560px;
-    max-height: 500px;  
-	
-}
-
-/* galeria slider design digital */ 
-
-	
-.galeria2
-{
-	width: 60%;
-	height: 70%;
-	position: relative;
-	padding: 0px; 
-	margin: 2% 0% 0% 18.5%;
-}
-
-.foto2{
-	position: absolute;
-	opacity: 0;
-	animation-name: animacao;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	width: 100%;
-	height: 100%;
-	margin: 0%;
-}
-
-@keyframes animacao {
-	
-	25%{
-		opacity: 1;
-		trasform:scale(1.1,1.1);
-}
-
-	50%{
-		opacity: 0;
-	}
-}
-
-
-
-.foto2:nth-child(1){
-	
-}
-.foto2:nth-child(2){
-	animation-delay: 5s;
-}
-.foto2:nth-child(3){
-	animation-delay: 10s;
-}
-
-.foto2:nth-child(4){
-	animation-delay: 15s;
-}
-
-/* sobre */
-
-.sobre{
-	margin: 0px auto; /* centraliza o elemento o auto */
-	padding: 0px; /* espaço entre a borda e o conteúdo */ 
-	width: 100%;
-	height: 100%;
-	background-color: gray;
-	
-
-} 
-
-.sobre img
-{
-	position: absolute;
-
-	margin: 0 35% 0 30%;
-	height: 92%;
-	width: 38%;
-	padding-bottom: 2.3%;
-}
-.fb img
-{
-	position: absolute;
-	
-	margin: 10% 0 0 3% ;
-	height: 33%;
-	width: 24%;
-	
-	
-}
-.insta img
-{
-	position: absolute;
-	margin: 10% 0 0 70%;
-	
-	float: right;
-	
-	height:35%;
-	width: 25%;
-	
-	
-}
-.pt img
-{
-	
-	margin:0 0 0 94%;
-	position: absolute;
-	height: 35px;
-	width: 35px;
-	
-}
-.en img
-{
-	
-	margin:0 0 0 97%;
-	position: absolute;
-	height: 35px;
-	width: 35px;
-	
-}
-
-/* galeria Design Digital */
-.galeria { 
-  padding: .5vw;
-  font-size: 0;
-  display: -ms-flexbox;
-  -ms-flex-wrap: wrap;
-  -ms-flex-direction: column;
-  -webkit-flex-flow: row wrap; 
-  flex-flow: row wrap; 
-  display: -webkit-box;
-  display: flex;
-}
-.galeria div { 
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  flex: auto; 
-  width: 200px; 
-  margin: .5vw; 
-}
-.galeria div img { 
-  width: 100%; 
-  height: 200px; 
-}
-/*Responsividade a partir de 900px */ 
-@media screen and (max-width: 900px) {
-
-   /* Galeria Design Digital */     
-  .galeria div { margin: 0; }
-  .galeria { padding: 0; }
-
-    /* Ajuste tamanho do article - retirada das margens */ 
-   .conteudo
-{
-    margin: 0%;
-}
-    
-    /*Ajuste Menu */
     .menu ul li
-{
-	width: 100%;
-	
-}
+    {
+        width: 150px;
+        float: left;
 
-#primeiroli 
-{
-	width: 100%;
-    padding: 0;
-}
-    #primeiroli img 
-{
-	display: block;
-    margin: 0 auto;
-}
+    }
+
+    #primeiroli 
+    {
+        width: 150px;
+        float: left;
+        padding-left: 15%;
+    }
+
+    .menu a
+    {
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align:center;
+        background-color: #222;
+        color: #FFF;
+    }
+
+    .menu ul ul 
+    {
+        position: absolute; 
+        visibility: hidden;
+
+    }
     .menu ul ul li
+    {
+        float: none;
+        display: block; 
+        width: 250px;
+
+    }
+
+    .menu ul li:hover ul
+    {
+        visibility: visible;
+        display: block;
+         z-index: 1;
+
+    }
+
+    .menu a:hover 
+    {
+        background-color: green;
+
+    }
+    .menu img
+    {
+        width: 150px;
+        height: 50%;
+    }
+
+
+    /*Div da página home */ 
+    .home {
+        margin: 0 auto;
+        min-height: calc(100vh - 30px);
+        max-width: 80vw;
+
+
+    }
+    .home img
+    {
+        margin: 0 auto;
+        display: block;
+        max-width: 50vw;
+        max-height: 80vh;
+
+    }
+
+/*Rodapé */ 
+
+
+    footer
+    {
+        clear: both;
+        display: block;
+        position: relative;
+        width: 100%;
+        min-height: 30px;
+        background-color: #222;
+        color: white;
+        text-align: center;
+
+
+    }
+
+
+
+
+
+
+        /* galeria slider fatec */ 
+    .galeria
+    {
+        width: 60%;
+        height: 50%;
+        position: relative;
+        padding: 0px; 
+        margin: 2% 0% 0% 18.5%;
+
+
+    }
+
+    .foto{
+        position: absolute;
+        opacity: 0;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+
+    }
+
+    @keyframes animacao {
+
+        25%{
+            opacity: 1;
+            trasform:scale(1.1,1.1);
+    }
+
+        50%{
+            opacity: 0;
+        }
+    }
+
+
+
+    .foto:nth-child(1){
+
+    }
+    .foto:nth-child(2){
+        animation-delay: 5s;
+    }
+    .foto:nth-child(3){
+        animation-delay: 10s;
+    }
+    .foto:nth-child(4){
+        animation-delay: 15s;
+    }
+
+    /* PLUG-IN FACEBOOK */ 
+
+
+    .face {
+        margin: 0 auto; 
+        max-width: 320px;
+        height:100%;  
+    }
+    /* videos math */
+
+    #video 
+    {
+        display: block;
+        margin: auto;
+        max-width= 560px; 
+        max-height= 315px;
+    }
+
+    /* pdf padroes */
+
+    .pdf
+    {
+        margin: 0 auto; 
+        max-width: 560px;
+        max-height: 500px;  
+
+    }
+/* img download padrões*/
+.pdfDownload
 {
-    float: left;
-	width: 100%;
-	
+    display: none;
+    visibility: hidden;
 }
 
-}
+    /* sobre */
 
+    .sobre{
+        margin: 0px auto; /* centraliza o elemento o auto */
+        padding: 0px; /* espaço entre a borda e o conteúdo */ 
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+
+
+    } 
+
+    .sobre img
+    {
+        position: absolute;
+
+        margin: 0 35% 0 30%;
+        height: 92%;
+        width: 38%;
+        padding-bottom: 2.3%;
+    }
+    .fb img
+    {
+        position: absolute;
+
+        margin: 10% 0 0 3% ;
+        height: 33%;
+        width: 24%;
+
+
+    }
+    .insta img
+    {
+        position: absolute;
+        margin: 10% 0 0 70%;
+
+        float: right;
+
+        height:35%;
+        width: 25%;
+
+
+    }
+    .pt img
+    {
+
+        margin:0 0 0 94%;
+        position: absolute;
+        height: 35px;
+        width: 35px;
+
+    }
+    .en img
+    {
+
+        margin:0 0 0 97%;
+        position: absolute;
+        height: 35px;
+        width: 35px;
+
+    }
+
+    /* galeria Design Digital */
+    .galeria { 
+      padding: .5vw;
+      font-size: 0;
+      display: -ms-flexbox;
+      -ms-flex-wrap: wrap;
+      -ms-flex-direction: column;
+      -webkit-flex-flow: row wrap; 
+      flex-flow: row wrap; 
+      display: -webkit-box;
+      display: flex;
+    }
+    .galeria div { 
+      -webkit-box-flex: auto;
+      -ms-flex: auto;
+      flex: auto; 
+      width: 200px; 
+      margin: .5vw; 
+    }
+    .galeria div img { 
+      width: 100%; 
+      height: 200px; 
+    }
+    /*Responsividade a partir de 900px */ 
+    @media screen and (max-width: 900px) {
+
+       /* Galeria Design Digital */     
+      .galeria div { margin: 0; }
+      .galeria { padding: 0; }
+
+        /* Ajuste tamanho do article - retirada das margens */ 
+       .conteudo
+    {
+        margin: 0%;
+    }
+
+        /*Ajuste Menu */
+        .menu ul li
+    {
+        width: 100%;
+
+    }
+
+    #primeiroli 
+    {
+        width: 100%;
+        padding: 0;
+    }
+        #primeiroli img 
+    {
+        display: block;
+        margin: 0 auto;
+    }
+        .menu ul ul li
+    {
+        float: left;
+        width: 100%;
+
+    }
+
+    }
+
+
+/*Responsividade a partir de 600px */ 
+    @media screen and (max-width: 600px) {
+        
+    /* PDF padrões - Iframe - Imagem Download */ 
+        /* Iframe PDF */ 
+        .pdf{
+            display: none;
+            visibility: hidden;
+        }
+        /* Img Download  */ 
+        .pdfDownload
+        {
+            display: block;
+            margin: 0 auto;
+            visibility: visible;
+            max-width: 600px; 
+            max-height: auto;
+            
+        }
+        .pdfDownload img
+        {
+            display: block;
+            margin: 0 auto;
+            max-width: 220px;
+            height: auto;
+            
+        }
+        .pdfDownload p
+        {       
+            text-align: center;
+            padding: 0; /* estava herdando padding da classe conteudo */ 
+        }
 }
 
 
