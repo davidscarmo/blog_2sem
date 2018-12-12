@@ -32,36 +32,46 @@
     </ul>
 </nav>
 </header> 
-<div id = "sobre">
-    <div id = "en">
+<main id = "sobre">
+    <section><!--Menu de escolha da língua -->
+        <nav>
+            <ul id = "en">
 
-        <a href ="about.html"> <img alt="Icon USA - PT" src="img/en_icon.png"> </a>
-        
-    </div>
+                <li> <a href ="about.html"> <img alt="Icon USA - PT" src="img/en_icon.png"> </a></li>
 
-    <div id ="pt">
-        
-        <a href ="sobre.html"><img alt="Icon Brasil - PT" src="img/pt_icon.png"></a>
+            </ul>
 
-    </div>
+            <ul id ="pt">
 
+                <li> <a href ="sobre.html"><img alt="Icon Brasil - PT" src="img/pt_icon.png"></a></li>
 
-    <img alt ="David Carmo card" src="img/about_card_front.png" onMouseOver="this.src='img/about_card_back.png'"onMouseOut="this.src='img/about_card_front.png'">
+            </ul>
+        </nav>
+    </section>
+    
+    <!-- Cartão frente-verso com informações sobre o autor do blog-->
+    <section>
+        <figure>
+            <img alt ="David Carmo card" src="img/about_card_front.png" onMouseOver="this.src='img/about_card_back.png'"onMouseOut="this.src='img/about_card_front.png'">
+        </figure>
+    </section>
+    <!--Links para as redes sociais -->
+    <section>
+        <nav id ="instaFB_Box">
+            <ul id="fb">
 
-    <div id ="instaFB_Box">
-        <div id="fb">
+                <li><a href="https://www.facebook.com/david.carmosantos"> <img alt="Icon Facebook" src="img/facebook_icon.png"> </a> </li>
 
-            <a href="https://www.facebook.com/david.carmosantos"> <img alt="Icon Facebook" src="img/facebook_icon.png"> </a> 
+            </ul>
 
-        </div>
+            <ul id="insta">
 
-        <div id="insta">
+                <li><a href="https://www.instagram.com/okay_dave/"><img alt="Icon Instagram" src="img/insta_icon.png"> </a></li>
 
-            <a href="https://www.instagram.com/okay_dave/"><img alt="Icon Instagram" src="img/insta_icon.png"> </a>
-
-        </div>
-    </div>
-</div>
+            </ul>
+        </nav>
+    </section>
+</main>
     
 <footer> 
     <p>Site desenvolvido por David do Carmo. Todos os direitos reservados. 2018 </p>
