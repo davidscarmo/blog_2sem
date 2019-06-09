@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Digital</title>
     <link rel="stylesheet" type ="text/css" href ="css/style.css"/>
+    <link rel="stylesheet" href="css/contrast.css">
     <link rel="shortcut icon" href="img/avatar_icon.png" type="image/x-icon" />
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="js/fonte.js" type="text/javascript"></script>
+    <script src="js/high-contrast.js"></script>
+    <script src="js/fakeBreadCrumb.js"></script>
 </head>
-<body>
+<body onload="bdCrumb()">
 
 <header>
-        <nav class ="menu">
+        <div class="menuAcessibilidade">
+                <ul id="atalhos">  
+                        <li><a href="#conteudo" accesskey="1"> <span>1</span>Ir para o conteúdo </a></li>  
+                        <li><a href="#mainMenu" accesskey="2"><span>2</span>Ir para o menu </a></li>   
+                        <li><a href="#rodape" accesskey="3"><span>3</span>Ir para o rodapé </a></li>  
+                    </ul>  
+            <ul id="botoes">
+                <li>
+                    <button onclick="window.toggleContrast()"><img src="img/icon_altoContrast.png" alt=""></button>
+                    <a href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" >Alto contraste</a>
+                </li>
+                <li><button onClick="fonte('a');">A+</button>Aumentar Texto</li>
+                <li> <button onClick="fonte('d');">A-</button> Diminuir Texto</li>
+                
+            </ul>
+        </div>
+        <nav id="mainMenu" class ="menu">
 
     <ul>
         <li id="primeiroli"><img  alt ="David Carmo imagem em branco" src="img/name_bar.png"></li>
@@ -38,9 +59,10 @@
 
 
 
-<main class = "conteudo">
-    <section><!--Apresentação da Disciplina e professor -->
-		<h1>Design Digital</h1>
+<main id="conteudo" class = "conteudo">
+        <section class="acessibilidade"><!--Apresentação da Disciplina e professor -->
+            <p id="breadCrumb"></p>
+            <h1 id="tituloPage">Design Digital</h1>
         <figure>
 		 <img alt="Avatar Profesorra Fabiana" src="img/avatar_fabiana.png" onMouseOver="this.src='img/fabiana_real.png'"onMouseOut="this.src='img/avatar_fabiana.png'">
         </figure>
@@ -52,7 +74,7 @@
 			valendo-se de formas e criação de objetos para atender uma demanda(edição de imagens, criação de logos, banners, cartões, templates etc). 
 		</p>
     </section>
-    <section> <!--Conteúdo da Página -->
+    <section class="acessibilidade" ><!-- Conteúdo da página -->   
 		<h2> Artes desenvolvidas com as habilidades aprendidas: </h2>
 		<!-- Início  Galeria - Flexbox -->
 		<figure class="galeria">
@@ -69,7 +91,7 @@
 
 
 
-<footer> 
+<footer id="rodape"> 
 	<p>Site desenvolvido por David do Carmo. Todos os direitos reservados. 2018 </p>
 
 </footer>

@@ -5,13 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmo e Lógica de Programação</title>
     <link rel="stylesheet" type ="text/css" href ="css/style.css"/>
+    <link rel="stylesheet" href="css/contrast.css">
     <link rel="shortcut icon" href="img/avatar_icon.png" type="image/x-icon" />
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="js/fonte.js" type="text/javascript"></script>
+    <script src="js/high-contrast.js"></script>
+    <script src="js/fakeBreadCrumb.js"></script>
 </head>
-<body>
+<body onload="bdCrumb()">
 
 <header>
-        <nav class ="menu">
-
+    <div class="menuAcessibilidade">
+            <ul id="atalhos">  
+                    <li><a href="#conteudo" accesskey="1"> <span>1</span>Ir para o conteúdo </a></li>  
+                    <li><a href="#mainMenu" accesskey="2"><span>2</span>Ir para o menu </a></li>   
+                    <li><a href="#rodape" accesskey="3"><span>3</span>Ir para o rodapé </a></li>  
+                </ul>  
+        <ul id="botoes">
+            <li>
+                <button onclick="window.toggleContrast()"><img src="img/icon_altoContrast.png" alt=""></button>
+                <a href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" >Alto contraste</a>
+            </li>
+            <li><button onClick="fonte('a');">A+</button>Aumentar Texto</li>
+            <li> <button onClick="fonte('d');">A-</button> Diminuir Texto</li>
+            
+        </ul>
+    </div>
+<nav id="mainMenu" class ="menu">
     <ul>
         <li id="primeiroli"><img  alt ="David Carmo imagem em branco" src="img/name_bar.png"></li>
         <li><a href="index.html">Home  </a></li>
@@ -38,9 +58,10 @@
 
 
 
-<main class = "conteudo">
-    <section> <!--Apresentação da Disciplina e professor -->
-        <h1>Algoritmo e Lógica de Programação</h1>
+<main id ="conteudo" class = "conteudo" >
+    <section class="acessibilidade" > <!--Apresentação da Disciplina e professor -->
+        <p id="breadCrumb"></p>
+        <h1 id="tituloPage">Algoritmo e Lógica de Programação</h1>
         <figure>
             <img alt="Avatar Professora Ligia" src="img\avatar_ligia.png" onMouseOver="this.src='img/ligia_real.png'"onMouseOut="this.src='img/avatar_ligia.png'">
         </figure>    
@@ -51,7 +72,7 @@
         <p> 
             A disciplina de Algoritmo e Lógica de programação tem como objetivo o desenvolvimento das habilidades básicas de programação para a resolução de problemas de lógica simples, envolvendo estruturas fundamentais de programas: sequencial, condicional e repetitiva.</p>
     </section>
-        <section> <!-- Conteúdo da página -->
+        <section class="acessibilidade"> <!-- Conteúdo da página -->
             <article>
                 <h2> Conceitos. </h2>
 
@@ -175,7 +196,7 @@
 </main>
 
 
-<footer> 
+<footer id="rodape"> 
 	<p>Site desenvolvido por David do Carmo. Todos os direitos reservados. 2018 </p>
 </footer>
 
